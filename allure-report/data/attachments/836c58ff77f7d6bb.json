@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/203/salary-components","body":{"currencyId":"FKP","salaryAmount":"107554","salaryComponent":"North"},"headers":{"Content-Type":"application/json"}}

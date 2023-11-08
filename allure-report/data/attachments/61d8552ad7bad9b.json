@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/302/salary-components","body":{"currencyId":"CDF","salaryAmount":"101905","salaryComponent":"metrics"},"headers":{"Content-Type":"application/json"}}

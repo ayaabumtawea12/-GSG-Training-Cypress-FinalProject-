@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/324/salary-components","body":{"currencyId":"KPW","salaryAmount":"107191","salaryComponent":"Northeast"},"headers":{"Content-Type":"application/json"}}

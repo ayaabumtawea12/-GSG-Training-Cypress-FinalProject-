@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/175/salary-components","body":{"currencyId":"PHP","salaryAmount":"106487","salaryComponent":"matrix"},"headers":{"Content-Type":"application/json"}}

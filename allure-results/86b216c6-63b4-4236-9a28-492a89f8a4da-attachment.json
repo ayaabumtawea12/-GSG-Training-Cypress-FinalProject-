@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/430/salary-components","body":{"currencyId":"RWF","salaryAmount":"100015","salaryComponent":"male"},"headers":{"Content-Type":"application/json"}}

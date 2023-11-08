@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/250/salary-components","body":{"currencyId":"PEN","salaryAmount":"108006","salaryComponent":"East"},"headers":{"Content-Type":"application/json"}}

@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/454/salary-components","body":{"currencyId":"UGX","salaryAmount":"107663","salaryComponent":"female"},"headers":{"Content-Type":"application/json"}}

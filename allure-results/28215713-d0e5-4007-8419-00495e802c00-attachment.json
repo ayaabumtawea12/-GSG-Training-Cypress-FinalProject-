@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/523/salary-components","body":{"currencyId":"LKR","salaryAmount":"104152","salaryComponent":"Southeast"},"headers":{"Content-Type":"application/json"}}

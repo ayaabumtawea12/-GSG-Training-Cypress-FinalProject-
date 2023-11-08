@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/281/salary-components","body":{"currencyId":"CAD","salaryAmount":"105902","salaryComponent":"Tasty"},"headers":{"Content-Type":"application/json"}}

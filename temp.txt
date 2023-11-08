@@ -1,0 +1,5 @@
+"cypress": "npm run allure:clear && npx cypress run --browser chrome --spec  cypress/e2e/OrangeHrm/employee-report-spec.cy.ts --env allure=true && npm run allure generate allure-results --clean -o allure-report",
+
+
+npx cypress run -s cypress/e2e/OrangeHrm/employee-report-spec.cy.ts
+allure generate 

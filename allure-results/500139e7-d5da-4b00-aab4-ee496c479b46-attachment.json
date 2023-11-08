@@ -1,0 +1,1 @@
+{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/541/salary-components","body":{"currencyId":"CZK","salaryAmount":"105942","salaryComponent":"agree"},"headers":{"Content-Type":"application/json"}}
