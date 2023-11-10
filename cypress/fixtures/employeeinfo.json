@@ -1,0 +1,15 @@
+
+ { 
+    "FirstName":"Aya",
+    "MiddleName":"H",
+    "LastName":"Mtawea",
+    "UserName":"ay12575888",
+    "Password":"asd123123",
+    "ConfirmPassword":"asd123123",
+    "Nickname":"mtawee",
+    "DriverLicenseNumber":"33458975255",
+    "LicenseExpiryDate" : "2027-06-02",
+    "MaritalStatus":"single",
+    "DateofBirth":"2000-06-28",
+    "Gender":"female"
+}
