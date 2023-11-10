@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-09-26T22:09:38.853Z",
+    "end": "2023-09-26T22:09:50.657Z",
+    "duration": 11804,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a1a60604-f6a8-4c27-a283-17c2c6098c76",
+      "title": "",
+      "fullFile": "cypress\\e2e\\OrangeHRM\\employeeDetail.spec.cy.ts",
+      "file": "cypress\\e2e\\OrangeHRM\\employeeDetail.spec.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7feec553-6cc1-4e56-a6d5-7842329e35ca",
+          "title": "Employee functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add Personal detail",
+              "fullTitle": "Employee functionality Add Personal detail",
+              "timedOut": null,
+              "duration": 11531,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('@EmpInfo').then((info) => {\n    empobj.addemployeef(info.FirstName, info.MiddleName, info.LastName, info.UserName, info.Password, info.ConfirmPassword);\n    empDetail.PersonalDetails(info.Nickname, info.DriverLicenseNumber, info.LicenseExpiryDate, info.MaritalStatus, info.DateofBirth, info.Gender);\n});\n// cy.get('.oxd-text').contains('Aya');",
+              "err": {
+                "message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo EAI_AGAIN opensource-demo.orangehrmlive.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Employee functionality`",
+                "estack": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo EAI_AGAIN opensource-demo.orangehrmlive.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Employee functionality`\n    at <unknown> (http://localhost:55986/__cypress/runner/cypress_runner.js:147682:82)\n    at visitFailedByErr (http://localhost:55986/__cypress/runner/cypress_runner.js:147074:12)\n    at <unknown> (http://localhost:55986/__cypress/runner/cypress_runner.js:147681:11)\n    at tryCatcher (http://localhost:55986/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise._settlePromiseFromHandler (http://localhost:55986/__cypress/runner/cypress_runner.js:16679:31)\n    at Promise._settlePromise (http://localhost:55986/__cypress/runner/cypress_runner.js:16736:18)\n    at Promise._settlePromise0 (http://localhost:55986/__cypress/runner/cypress_runner.js:16781:10)\n    at Promise._settlePromises (http://localhost:55986/__cypress/runner/cypress_runner.js:16857:18)\n    at _drainQueueStep (http://localhost:55986/__cypress/runner/cypress_runner.js:13451:12)\n    at _drainQueue (http://localhost:55986/__cypress/runner/cypress_runner.js:13444:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:55986/__cypress/runner/cypress_runner.js:13460:5)\n    at Async.drainQueues (http://localhost:55986/__cypress/runner/cypress_runner.js:13330:14)\nFrom Your Spec Code:\n    at Context.eval (webpack:///./cypress/e2e/OrangeHRM/employeeDetail.spec.cy.ts:15:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo EAI_AGAIN opensource-demo.orangehrmlive.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)",
+                "diff": null
+              },
+              "uuid": "d95941b6-56e5-4fc5-8184-ca8bcd1261e2",
+              "parentUUID": "7feec553-6cc1-4e56-a6d5-7842329e35ca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "d95941b6-56e5-4fc5-8184-ca8bcd1261e2"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 11531,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "mochaFile": "cypress-results/cypress-report.xml",
+        "reportDir": "cypress/results/mochawesome",
+        "overWrite": false,
+        "html": false,
+        "json": true,
+        "toConsole": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
