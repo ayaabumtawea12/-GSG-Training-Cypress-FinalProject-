@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/452/salary-components","body":{"currencyId":"YER","salaryAmount":"100052","salaryComponent":"Extended"},"headers":{"Content-Type":"application/json"}}

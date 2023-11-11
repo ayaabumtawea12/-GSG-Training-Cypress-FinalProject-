@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/342/salary-components","body":{"currencyId":"SCR","salaryAmount":"109216","salaryComponent":"Israel"},"headers":{"Content-Type":"application/json"}}

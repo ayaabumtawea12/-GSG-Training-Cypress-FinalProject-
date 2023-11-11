@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/472/salary-components","body":{"currencyId":"TND","salaryAmount":"101396","salaryComponent":"Oxygen"},"headers":{"Content-Type":"application/json"}}

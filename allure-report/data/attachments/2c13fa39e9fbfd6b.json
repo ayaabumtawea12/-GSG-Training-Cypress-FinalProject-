@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/341/salary-components","body":{"currencyId":"PHP","salaryAmount":"102625","salaryComponent":"Wooden"},"headers":{"Content-Type":"application/json"}}

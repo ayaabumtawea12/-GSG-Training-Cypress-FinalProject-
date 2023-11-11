@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees","body":{"employeeId":"lpPLnknVZ0","firstName":"Colt","lastName":"Hoppe","middleName":"Giovanna"},"headers":{"Content-Type":"application/json"}}

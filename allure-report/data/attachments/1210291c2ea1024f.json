@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/232/salary-components","body":{"currencyId":"CRC","salaryAmount":"106503","salaryComponent":"XML"},"headers":{"Content-Type":"application/json"}}

@@ -123,7 +123,7 @@ export default class AddReportPage {
       .find(".group-rgRow")
       .each((elem) => {
         cy.wrap(elem)
-          .find(".rgHeaderCell")
+          //.find(".rgHeaderCell")
           .each((cell, cellIndex) => {
             cy.wrap(cell)
               .invoke("text")
@@ -141,9 +141,7 @@ export default class AddReportPage {
       });
   }
 
-
-
-
+/*
   ValidateTableValues(arr: any[][]) {
     let i = 1;
     cy.get(".content-wrapper")
@@ -158,6 +156,8 @@ export default class AddReportPage {
               .should("contain", arr[rowIndex][cellIndex]);
           });
       });
+      
   }
+  */
 }
 

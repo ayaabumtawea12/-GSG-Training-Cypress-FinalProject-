@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/487/salary-components","body":{"currencyId":"DOP","salaryAmount":"104335","salaryComponent":"Lincolnshire"},"headers":{"Content-Type":"application/json"}}

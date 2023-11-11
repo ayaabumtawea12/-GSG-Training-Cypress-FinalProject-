@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/473/salary-components","body":{"currencyId":"KYD","salaryAmount":"109785","salaryComponent":"Ergonomic"},"headers":{"Content-Type":"application/json"}}

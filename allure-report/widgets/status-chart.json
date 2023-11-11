@@ -1,1 +1,1 @@
-[{"uid":"1ed90c4463e62731","name":"Generate an Employee report)","time":{"start":1699440840959,"stop":1699440890119,"duration":49160},"status":"passed","severity":"normal"}]
+[{"uid":"6fd58919d5413d41","name":"add claim and tnen  reject","time":{"start":1699703346271,"stop":1699703367720,"duration":21449},"status":"passed","severity":"normal"},{"uid":"7dfb8561b8d67e6","name":"add claim and tnen approve","time":{"start":1699703314789,"stop":1699703346268,"duration":31479},"status":"passed","severity":"normal"}]

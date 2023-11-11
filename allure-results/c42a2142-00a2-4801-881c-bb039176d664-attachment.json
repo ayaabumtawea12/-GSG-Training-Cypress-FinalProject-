@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/429/salary-components","body":{"currencyId":"CVE","salaryAmount":"103212","salaryComponent":"Cadillac"},"headers":{"Content-Type":"application/json"}}

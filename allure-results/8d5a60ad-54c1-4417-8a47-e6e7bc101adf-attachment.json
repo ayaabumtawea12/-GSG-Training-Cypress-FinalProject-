@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/176/salary-components","body":{"currencyId":"AZN","salaryAmount":"100215","salaryComponent":"Northwest"},"headers":{"Content-Type":"application/json"}}

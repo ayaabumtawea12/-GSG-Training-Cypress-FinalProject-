@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/156/salary-components","body":{"currencyId":"AZN","salaryAmount":"103511","salaryComponent":"Cotton"},"headers":{"Content-Type":"application/json"}}

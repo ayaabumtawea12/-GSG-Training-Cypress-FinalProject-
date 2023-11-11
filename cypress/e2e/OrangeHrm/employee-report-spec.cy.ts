@@ -1,7 +1,7 @@
 import LoginPage from "../../support/page-objects/login-page/login-page";
 import AddLocationHelper from '../../support/helpers/add-location-helper';
 import AddJopHelper from  '../../support/helpers/add-job-helper'
-import  "../../support/Api/utills/add-location-utills";
+import  "../../support/Api/utills/utills-page";
 import  "../../support/Api/utills/add-job-utills";
 import EmployeeHelper from "../../support/helpers/add-employee-helper";
 import AddReportPage from "../../support/page-objects/addreport-page";

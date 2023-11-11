@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/292/salary-components","body":{"currencyId":"ANG","salaryAmount":"107549","salaryComponent":"ohm"},"headers":{"Content-Type":"application/json"}}

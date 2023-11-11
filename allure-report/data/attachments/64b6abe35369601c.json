@@ -1,1 +1,0 @@
-{"method":"POST","url":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/251/salary-components","body":{"currencyId":"BGN","salaryAmount":"103477","salaryComponent":"meanwhile"},"headers":{"Content-Type":"application/json"}}
