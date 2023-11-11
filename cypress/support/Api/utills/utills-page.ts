@@ -9,7 +9,6 @@ import {ICreateUser}from "../../payload/adduser-payload";
 import {ICreateEvent} from "../../payload/event-payload";
 import {ICreateExpense} from "../../payload/expense-payload";
 
-
 declare global {
     namespace Cypress {
         interface Chainable {
@@ -22,6 +21,9 @@ declare global {
         }
     }
 }
+
+
+
 
 Cypress.Commands.add('newLocation', (requestURL: string,  LocationPayload: AddLocationPayload) => {
     return cy.api(

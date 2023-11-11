@@ -20,7 +20,9 @@ export default class ClaimsRequest{
       
       reject(claimId:any){
         cy.visit(
+
             "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim"
+            
           );
           cy.visit(
           `https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim/id/${claimId}`

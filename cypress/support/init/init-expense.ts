@@ -5,6 +5,7 @@ import{ICreateExpense} from "../../support/payload/expense-payload"
 
 
 
+
 export default class expanseInit {
     static initExpanse(data:any):ICreateExpense {
         const name = `aya${GenericfunctionHelper.genericRandomString()}`;

@@ -9,6 +9,7 @@ export default class GenericfunctionHelper{
         return result;
       }
 
+      
     
         static  genericRandomNumber(maxNumber =10000){
              return Math.round(maxNumber * (Math.random()))

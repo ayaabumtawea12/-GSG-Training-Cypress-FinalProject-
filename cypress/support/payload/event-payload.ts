@@ -4,5 +4,6 @@ export interface ICreateEvent {
     
     name:string,
     
+    
     status:any,
     }

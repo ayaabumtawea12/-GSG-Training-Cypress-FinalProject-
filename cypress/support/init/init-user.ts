@@ -3,6 +3,7 @@ import GenericfunctionHelper from "../../support/page-objects/generic-page/gener
 
 
 
+
 export default class employeeInit {
     static initEmployee(data:any): ICreateEmployeeUser {
         let createEmployeeUserPayload: ICreateEmployeeUser = {

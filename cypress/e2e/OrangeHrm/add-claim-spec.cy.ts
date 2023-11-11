@@ -104,8 +104,15 @@ it('add claim and tnen approve', () => {
 it('add claim and tnen  reject', () => {
      
 request.reject(claimId);
+
   
 });
+
+
+
+
+
+
 
 
 

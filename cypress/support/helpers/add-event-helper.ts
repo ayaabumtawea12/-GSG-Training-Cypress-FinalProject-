@@ -37,6 +37,8 @@ class AddEventfunction{
     return cy.addExpenseTypes("https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/claim/expenses/types", addExpenseTypes).as('CREATED_EVENT');
   }
 
+
+  
   
 deteteExpense(expenseId:any){
      

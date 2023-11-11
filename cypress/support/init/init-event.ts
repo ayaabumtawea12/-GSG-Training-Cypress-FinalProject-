@@ -5,6 +5,7 @@ import{ICreateExpense} from "../../support/payload/expense-payload"
 
 
 
+
 export default class eventInit {
     static initEvent(data:any):ICreateEvent {
         const name = `aya${GenericfunctionHelper.genericRandomString()}`;
