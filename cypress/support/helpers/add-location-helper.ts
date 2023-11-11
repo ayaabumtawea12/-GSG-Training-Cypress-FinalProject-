@@ -6,6 +6,7 @@ export const URLs = {
     ADD_LOCATION: 'https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/locations'
 }
 
+
 export default class AddLocation { 
     addNewLocationViaAPI() { 
       const userPayload = AddLocationInit.LocationInit(); 

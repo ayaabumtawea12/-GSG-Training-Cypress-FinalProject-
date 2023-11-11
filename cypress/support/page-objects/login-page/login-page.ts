@@ -20,6 +20,22 @@ class LoginPage {
     logout = () => {
         return cy.api('GET','https://opensource-demo.orangehrmlive.com/web/index.php/auth/logout',{})
     }
+<<<<<<< HEAD
+=======
+*/
+
+
+    logout=()=>{
+        this.elements.selectLogout().click({ force: true });
+        this.elements.log().eq(3).click({force: true});
+    }
+
+
+
+>>>>>>> d1f6bc6 (add claim)
+
+
+
 
 
 
