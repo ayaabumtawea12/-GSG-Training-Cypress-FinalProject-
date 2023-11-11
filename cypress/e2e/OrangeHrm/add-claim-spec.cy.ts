@@ -98,7 +98,7 @@ myLogin.login("Admin", "admin123");
 it('add claim and tnen approve', () => {
       request.approve(claimId);
 
-      
+
 });
 
 it('add claim and tnen  reject', () => {
@@ -113,5 +113,5 @@ request.reject(claimId);
 
 
  
-
+//
 
