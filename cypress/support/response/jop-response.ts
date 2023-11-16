@@ -9,6 +9,7 @@ export interface AddJopResponse
             id: number
             filename: any
             fileType: any
+            
             fileSize: any
         }
     }

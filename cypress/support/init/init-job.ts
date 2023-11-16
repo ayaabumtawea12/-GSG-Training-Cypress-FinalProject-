@@ -10,6 +10,7 @@ export default class AddJopInit {
             specification: null, // Generate a random word for specification
             note: faker.lorem.paragraph()
         }
+        
         return createJobPayload;
     }
 }

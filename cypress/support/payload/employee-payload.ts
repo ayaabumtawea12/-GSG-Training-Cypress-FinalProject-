@@ -7,5 +7,5 @@ export interface ICreateEmployeePayload {
     
     middleName:string
     
-      }
+  }
       

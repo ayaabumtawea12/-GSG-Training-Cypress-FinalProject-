@@ -6,16 +6,12 @@ import  "../../support/Api/utills/add-job-utills";
 import EmployeeHelper from "../../support/helpers/add-employee-helper";
 import AddReportPage from "../../support/page-objects/addreport-page";
 
-
 const myLogin:LoginPage = new LoginPage();
 const myLocation : AddLocationHelper=new AddLocationHelper();
 const myJop : AddJopHelper=new AddJopHelper();
 const employeeHelper:EmployeeHelper =new EmployeeHelper();
 const report :AddReportPage =new AddReportPage();
-
-
  
-
 let JopTitle: any;
 let locationId: any;
 let jobTitleId: any;

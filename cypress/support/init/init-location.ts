@@ -9,6 +9,7 @@ export default class AddLocationInit {
             name: faker.company.name(),
             countryCode: faker.address.countryCode()
         }
+        
         return createLocationPayload;
 
     }

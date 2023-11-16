@@ -7,6 +7,7 @@
         name: string;
         countryName: string;
       };
+      
       province: string;
       city: string;
       address: string;

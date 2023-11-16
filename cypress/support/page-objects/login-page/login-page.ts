@@ -7,8 +7,14 @@ class LoginPage {
         // password: () => cy.get('[placeholder="Password"]'),
         password: () => cy.get('[placeholder="Password"]'),
 
-        loginBtn: () => cy.get('button')
+        loginBtn: () => cy.get('button'),
+        selectLogout:()=>cy.get('.oxd-userdropdown-tab'),
+
+        logout:()=>cy.get('.oxd-userdropdown-link')
+
     }
+
+    
     login(userName: string, password: string) {
         this.elements.userName().type(userName);
         this.elements.password().type(password);
@@ -16,23 +22,20 @@ class LoginPage {
        // cy.get('.oxd-topbar-header-breadcrumb-module').should('contain','Dashboard');
     }
 
-
+/*
     logout = () => {
         return cy.api('GET','https://opensource-demo.orangehrmlive.com/web/index.php/auth/logout',{})
     }
-<<<<<<< HEAD
-=======
+
 */
 
-
-    logout=()=>{
+    logoutt=()=>{
         this.elements.selectLogout().click({ force: true });
-        this.elements.log().eq(3).click({force: true});
+        this.elements.logout().eq(3).click({force: true});
     }
 
 
 
->>>>>>> d1f6bc6 (add claim)
 
 
 

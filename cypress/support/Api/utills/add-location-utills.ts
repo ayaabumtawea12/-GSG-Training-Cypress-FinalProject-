@@ -14,6 +14,8 @@ import { AddJopResponse } from "../../response/jop-response";
     }
 }
 
+
+
 Cypress.Commands.add('newLocation', (requestURL: string,  LocationPayload: AddLocationPayload) => {
     return cy.api(
         {

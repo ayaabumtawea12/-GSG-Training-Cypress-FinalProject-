@@ -1,6 +1,8 @@
 import { faker } from '@faker-js/faker';
 
 export default class AddReportPage {
+
+  
   elements = {
     PIM: () => cy.get(".oxd-main-menu").contains("PIM"),
     Reports: () => cy.get(".oxd-topbar-body-nav-tab-item").contains("Reports"),

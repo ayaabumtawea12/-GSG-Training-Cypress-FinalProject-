@@ -2,14 +2,10 @@ import employeeInit from "../../support/init/init-employee";
 
 import { faker } from '@faker-js/faker';
  
-
-
-
-
 export default class EmployeeHelper{
 
 
-
+    
 CreateEmployee(locationIds:any, jobTitleIds:any){
     cy.log(`${jobTitleIds}`);
         cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList");
